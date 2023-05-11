@@ -1,0 +1,34 @@
+{
+  "name": "film-fanatic",
+  "version": "1.0.0",
+  "description": "Film fanatic is an online movie application to view movies related to a specific genre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcodewizard/film-fanatic.git"
+  },
+  "keywords": [
+    "films",
+    "movies",
+    "movies",
+    "list"
+  ],
+  "author": "Mubashir Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrcodewizard/film-fanatic/issues"
+  },
+  "homepage": "https://github.com/mrcodewizard/film-fanatic#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
